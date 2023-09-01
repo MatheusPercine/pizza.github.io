@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    /* padding: 0;*/
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+header {
+    background-image: url("https://i.pinimg.com/736x/68/74/21/687421fb03b92fba47195ec5a3b1cfae.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /*justify-content: space-evenly;
+    align-items: center; */
+    max-width: 1500px;
+    padding: 5px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.item-texto {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.item-texto:hover {
+    color: #e70a2f;
+    transition: 0.3s all;
+}
+
+.navbar-item {
+    display: inline-block;
+    margin: 0 25px;
+    font-size: 24px;
+}
+
+#home {
+    color: #e70a2f;
+}
+
+main {
+    margin: 0 0 0 0;
+}
+
+.section1 {
+    background-image: url("https://static.vecteezy.com/ti/fotos-gratis/t2/1911505-fundo-de-papel-vermelho-escuro-gratis-foto.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+aside {
+    color: white
+}
+
+.h2-section1 {
+    color: gold;
+    font-size: 50px;
+
+}
+
+.h3-section1 {
+    font-size: 20px;
+}
+
+.botao {
+    background-color: goldenrod;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.botao:hover {
+    background-color: rgb(182, 163, 59);
+    transition: 0.3s;
+}
+
+.texto_botao {
+    color: white;
+}
+
+.PizzaForno {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.section2 {
+    background-image: url("https://i.pinimg.com/736x/68/74/21/687421fb03b92fba47195ec5a3b1cfae.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+}
+
+.Lista-pizzas {
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Lista-pizzas-item-tipo1 {
+    display: inline-block;
+}
+
+.Pizza-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Pizza-info-texto {
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.Lista-pizzas-item-tipo2 {
+    display: inline-block;
+    margin-left: 275px;
+    margin-right: 275px;
+}
+
+.section3 {
+    background-image: url("https://static.vecteezy.com/ti/fotos-gratis/t2/1911505-fundo-de-papel-vermelho-escuro-gratis-foto.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.Mensagem-final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white
+}
+
+.Mensagem-final-texto {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
